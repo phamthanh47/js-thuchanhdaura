@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+       <!-- hien thi ket qua ham alert()-->
+    <p><button type="button" onclick="showMessage();"> click me </button>
+   <script>
+       function showMessage() {
+           alert('xin chao!')
+       }
+     </script>
+    </p>
+       <!-- hien thi ket qua su dung the html -->
+      <p> <div id="messageDiv"></div>
+       <button type="button" onclick=" showMassage();"> click me </button>
+       <script>
+           function showMassage() {
+              document.getElementById('messageDiv').innerHTML= 'xin chao!';
+           }
+       </script> </p>
+       <!-- hien thi ket qua su dung document.write()-->
+       <p>  <button type="button" onclick=" showMeasage();"> click me </button>
+       <script>
+           function showMeasage() {
+               document.write('xin chao!');
+           }
+       </script>  </p>
+       <!-- hien thi ket qua su dung console.log()-->
+       <p>  <button type="button" onclick=" showMaasage();"> click me </button>
+       <script>
+           function showMaasage() {
+               console.log('xin chao!');
+           }
+       </script> </p>
+</body>
+</html>
